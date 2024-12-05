@@ -1,5 +1,24 @@
 "use strict";
 
+let numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?");
+let lastFilm = prompt("Один из последних просмотренных фильмов?");
+let evaluateOfFilm = prompt("На сколько оцените его?");
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {
+        lFilm: lastFilm,
+        logan: evaluateOfFilm
+    },
+    actors: {},
+    genres: [],
+    privat: false
+};
+console.log(personalMovieDB);
+console.log(numberOfFilms);
+console.log(lastFilm);
+console.log(evaluateOfFilm);
+
+
 
 /////////////////////////////////////////ОПЕРАТОРЫ///////////////////////////////////////
 // console.log(4 + +"5");
